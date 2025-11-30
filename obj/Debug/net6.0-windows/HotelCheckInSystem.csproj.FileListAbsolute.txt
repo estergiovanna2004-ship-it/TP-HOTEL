@@ -1,0 +1,4 @@
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.AssemblyInfoInputs.cache
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.AssemblyInfo.cs
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.csproj.CoreCompileInputs.cache
