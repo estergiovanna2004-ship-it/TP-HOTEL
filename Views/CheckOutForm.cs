@@ -7,34 +7,41 @@ namespace HotelCheckInSystem.Views
 {
     public partial class CheckOutForm : Form
     {
-        private ReservationService reservationService;
+        private readonly ReservationService reservationService; 
 
-        public CheckOutForm()
+        // Construtor atualizado para receber a dependência
+        public CheckOutForm(ReservationService reservationService)
         {
             InitializeComponent();
-            reservationService = new ReservationService();
+            this.reservationService = reservationService;
         }
 
         private void btnCheckOut_Click(object sender, EventArgs e)
         {
             int reservationId;
+            
+            // 1. Tenta converter o texto para o ID da Reserva (int)
             if (int.TryParse(txtReservationId.Text, out reservationId))
             {
+                // 2. Busca o objeto Reservation pelo ID
                 var reservation = reservationService.GetReservationById(reservationId);
+                
                 if (reservation != null)
                 {
-                    reservationService.CheckOut(reservation);
-                    MessageBox.Show("Check-out successful!");
+                    // 3. Passar apenas o ID da reserva para o serviço
+                    reservationService.CheckOut(reservation.Id); 
+                    
+                    MessageBox.Show("Check-out realizado com sucesso!");
                     this.Close();
                 }
                 else
                 {
-                    MessageBox.Show("Reservation not found.");
+                    MessageBox.Show("Reserva não encontrada.");
                 }
             }
             else
             {
-                MessageBox.Show("Please enter a valid reservation ID.");
+                MessageBox.Show("Por favor, insira um ID de reserva válido (número inteiro).");
             }
         }
     }

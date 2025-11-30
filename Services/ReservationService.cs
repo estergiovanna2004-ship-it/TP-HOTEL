@@ -54,8 +54,8 @@ namespace HotelCheckInSystem.Services
             var reservation = GetReservationById(reservationId);
             if (reservation != null)
             {
-                // Logic to check in the guest
-                // For example, update reservation status or mark as checked in
+                // Lógica para dar check-in ao hóspede
+                // Exemplo: atualizar o status da reserva ou marcar como checked in
             }
         }
 
@@ -64,8 +64,8 @@ namespace HotelCheckInSystem.Services
             var reservation = GetReservationById(reservationId);
             if (reservation != null)
             {
-                // Logic to check out the guest
-                // For example, update reservation status or mark as checked out
+                // Lógica para dar check-out ao hóspede
+                // Exemplo: atualizar o status da reserva ou marcar como checked out
             }
         }
     }

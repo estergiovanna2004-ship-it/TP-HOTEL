@@ -2,3 +2,15 @@ C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInS
 C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.AssemblyInfoInputs.cache
 C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.AssemblyInfo.cs
 C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.csproj.CoreCompileInputs.cache
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.sourcelink.json
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\bin\Debug\net6.0-windows\HotelCheckInSystem.exe
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\bin\Debug\net6.0-windows\HotelCheckInSystem.dll.config
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\bin\Debug\net6.0-windows\HotelCheckInSystem.deps.json
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\bin\Debug\net6.0-windows\HotelCheckInSystem.runtimeconfig.json
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\bin\Debug\net6.0-windows\HotelCheckInSystem.dll
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\bin\Debug\net6.0-windows\HotelCheckInSystem.pdb
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.dll
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\refint\HotelCheckInSystem.dll
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.pdb
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\HotelCheckInSystem.genruntimeconfig.cache
+C:\Users\ester\OneDrive\Área de Trabalho\hotel\HotelCheckInSystem\HotelCheckInSystem\obj\Debug\net6.0-windows\ref\HotelCheckInSystem.dll

@@ -74,7 +74,7 @@ namespace HotelCheckInSystem.Views
             this.lblCheckOut.Name = "lblCheckOut";
             this.lblCheckOut.Size = new System.Drawing.Size(60, 13);
             this.lblCheckOut.TabIndex = 5;
-            this.lblCheckOut.Text = "Check Out:";
+            this.lblCheckOut.Text = "Check-Out:";
             //
             // lblAvailableRooms
             //

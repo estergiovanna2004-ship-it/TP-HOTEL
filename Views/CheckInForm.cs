@@ -19,18 +19,33 @@ namespace HotelCheckInSystem.Views
 
         private void btnCheckIn_Click(object sender, EventArgs e)
         {
-            // Logic for checking in a guest
-            var guestId = txtGuestId.Text;
-            var roomId = txtRoomId.Text;
-
-            if (roomService.IsRoomAvailable(roomId))
+            // Lógica para realizar o Check-in de um hóspede
+            
+            // Tenta converter o ID do hóspede (assumido como ID da Reserva) para int
+            if (!int.TryParse(txtGuestId.Text, out int reservationId))
             {
-                reservationService.CheckIn(guestId, roomId);
-                MessageBox.Show("Check-in successful!");
+                MessageBox.Show("ID de Reserva inválido. Por favor, insira um número inteiro.");
+                return;
+            }
+
+            // Tenta converter o ID do quarto para int
+            if (!int.TryParse(txtRoomId.Text, out int roomId))
+            {
+                MessageBox.Show("ID do Quarto inválido. Por favor, insira um número inteiro.");
+                return;
+            }
+
+            // Assumindo que IsRoomAvailable no RoomService aceita int
+            if (roomService.IsRoomAvailable(roomId)) 
+            {
+                // Chamar CheckIn com o ID da reserva (int)
+                reservationService.CheckIn(reservationId);
+                MessageBox.Show("Check-in realizado com sucesso!");
+                this.Close();
             }
             else
             {
-                MessageBox.Show("Room is not available.");
+                MessageBox.Show("O quarto não está disponível.");
             }
         }
 

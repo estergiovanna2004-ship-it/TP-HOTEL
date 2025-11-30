@@ -30,7 +30,7 @@ namespace HotelCheckInSystem
             this.btnGuestRegistration.Name = "btnGuestRegistration";
             this.btnGuestRegistration.Size = new System.Drawing.Size(150, 50);
             this.btnGuestRegistration.TabIndex = 0;
-            this.btnGuestRegistration.Text = "Guest Registration";
+            this.btnGuestRegistration.Text = "Registro de Hóspede";
             this.btnGuestRegistration.UseVisualStyleBackColor = true;
             this.btnGuestRegistration.Click += new System.EventHandler(this.btnGuestRegistration_Click);
             // 
@@ -40,7 +40,7 @@ namespace HotelCheckInSystem
             this.btnCheckIn.Name = "btnCheckIn";
             this.btnCheckIn.Size = new System.Drawing.Size(150, 50);
             this.btnCheckIn.TabIndex = 1;
-            this.btnCheckIn.Text = "Check In";
+            this.btnCheckIn.Text = "Check-In";
             this.btnCheckIn.UseVisualStyleBackColor = true;
             this.btnCheckIn.Click += new System.EventHandler(this.btnCheckIn_Click);
             // 
@@ -60,7 +60,7 @@ namespace HotelCheckInSystem
             this.btnRoomAvailability.Name = "btnRoomAvailability";
             this.btnRoomAvailability.Size = new System.Drawing.Size(150, 50);
             this.btnRoomAvailability.TabIndex = 3;
-            this.btnRoomAvailability.Text = "Room Availability";
+            this.btnRoomAvailability.Text = "Disponibilidade de Quartos";
             this.btnRoomAvailability.UseVisualStyleBackColor = true;
             this.btnRoomAvailability.Click += new System.EventHandler(this.btnRoomAvailability_Click);
             // 
@@ -85,7 +85,7 @@ namespace HotelCheckInSystem
             this.Controls.Add(this.btnCheckIn);
             this.Controls.Add(this.btnGuestRegistration);
             this.Name = "MainForm";
-            this.Text = "Hotel Check-In System";
+            this.Text = "Sistema de Check-In de Hotel";
             this.ResumeLayout(false);
         }
 

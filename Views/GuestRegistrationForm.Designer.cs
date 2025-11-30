@@ -47,7 +47,7 @@ namespace HotelCheckInSystem.Views
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(80, 25);
             this.btnRegister.TabIndex = 2;
-            this.btnRegister.Text = "Register";
+            this.btnRegister.Text = "Registrar";
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             //
@@ -57,7 +57,7 @@ namespace HotelCheckInSystem.Views
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(80, 25);
             this.btnUpdate.TabIndex = 3;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = "Atualizar";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             //
@@ -77,7 +77,7 @@ namespace HotelCheckInSystem.Views
             this.lblContactInfo.Name = "lblContactInfo";
             this.lblContactInfo.Size = new System.Drawing.Size(70, 13);
             this.lblContactInfo.TabIndex = 5;
-            this.lblContactInfo.Text = "Contact Info:";
+            this.lblContactInfo.Text = "Informações de Contato:";
             //
             // lblTitle
             //
@@ -87,7 +87,7 @@ namespace HotelCheckInSystem.Views
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(150, 26);
             this.lblTitle.TabIndex = 6;
-            this.lblTitle.Text = "Guest Registration";
+            this.lblTitle.Text = "Registro de Hóspede";
             //
             // lblMessage
             //

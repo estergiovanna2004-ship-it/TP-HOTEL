@@ -26,12 +26,11 @@ namespace HotelCheckInSystem.Services
                 }
             }
 
-            totalRooms = reservations.Count; // Assuming each reservation corresponds to a room
+            totalRooms = reservations.Count; // Assumindo que cada reserva corresponde a um quarto
 
-            return new Report
+            // CORREÇÃO: Usando o construtor explícito (Report.cs requer Guid e DateTime)
+            return new Report(Guid.NewGuid(), DateTime.Now)
             {
-                ReportId = Guid.NewGuid(),
-                DateGenerated = DateTime.Now,
                 TotalRooms = totalRooms,
                 OccupiedRooms = occupiedRooms,
                 OccupancyRate = totalRooms > 0 ? (double)occupiedRooms / totalRooms * 100 : 0

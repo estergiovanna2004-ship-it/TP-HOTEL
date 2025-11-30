@@ -60,7 +60,7 @@ namespace HotelCheckInSystem.Views
             this.Controls.Add(this.dgvReports);
             this.Controls.Add(this.btnGenerateReport);
             this.Name = "ReportForm";
-            this.Text = "ReportForm";
+            this.Text = "Relatório";
             ((System.ComponentModel.ISupportInitialize)(this.dgvReports)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

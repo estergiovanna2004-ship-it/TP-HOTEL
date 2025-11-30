@@ -56,7 +56,7 @@ namespace HotelCheckInSystem.Views
             this.lblGuestId.Name = "lblGuestId";
             this.lblGuestId.Size = new System.Drawing.Size(50, 13);
             this.lblGuestId.TabIndex = 3;
-            this.lblGuestId.Text = "Guest ID:";
+            this.lblGuestId.Text = "ID do Hóspede:";
             //
             // lblRoomId
             //

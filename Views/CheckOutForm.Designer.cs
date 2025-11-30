@@ -58,7 +58,7 @@ namespace HotelCheckInSystem.Views
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(90, 26);
             this.lblTitle.TabIndex = 3;
-            this.lblTitle.Text = "Check Out";
+            this.lblTitle.Text = "Check-Out";
             //
             // lblMessage
             //
